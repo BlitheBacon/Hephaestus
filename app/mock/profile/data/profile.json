@@ -1,0 +1,58 @@
+{
+  "Locations": {
+    "Location01": {
+      "city": "Sunnyvale",
+      "state": "California",
+      "country": "United States"
+    },
+    "Location02": {
+      "city": "Santa Monica",
+      "state": "California",
+      "country": "United States"
+    }
+  },
+  "Skills": {
+    "Skill01": {
+      "name":"C++",
+      "description":"Programming Language",
+      "competency":"Intermediate"
+    },
+    "Skill02": {
+      "name":"ReactJS",
+      "description":"Programming Language Framework",
+      "competency":"Beginner"
+    },
+    "Skill03": {
+      "name":"C#",
+      "description":"Programming Language",
+      "competency":"Intermediate"
+    },
+    "Skill04": {
+      "name":"PostgreSQL",
+      "description":"Programming Language",
+      "competency":"Intermediate"
+    },
+    "Skill05": {
+      "name":"Problem Solving",
+      "description":"Soft Skill",
+      "competency":"Expert"
+    },
+    "Skill06": {
+      "name":"Linux - Ubuntu",
+      "description":"Operating System",
+      "competency":"Advanced"
+    }
+  },
+  "Experience": {
+    "Experience01": {
+      "company_name": "Google",
+      "title": "Software Engineer",
+      "summary": "Designed and implemented a new automated testing framework, resulting in a 50% reduction in testing time and a 25% increase in test coverage.\nCollaborated with cross-functional teams to optimize application performance, resulting in a 30% reduction in latency and a 20% increase in user satisfaction.\nDeveloped and maintained documentation for software applications, resulting in a 40% reduction in onboarding time for new engineers."
+    },
+    "Experience02": {
+      "company_name": "Naughty Dog",
+      "title": "Physics Programmer",
+      "summary": "Designed and developed a new game engine component, resulting in a 40% increase in game performance and a 20% decrease in development time for new features.\nCollaborated with the design team to create and implement new game mechanics, resulting in a 15% increase in player retention and a 5% increase in daily active users.\nDebugged and optimized game code, resulting in a 25% decrease in bug-related delays and a 10% increase in overall code quality."
+    }
+  }
+}
