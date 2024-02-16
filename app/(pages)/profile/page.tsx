@@ -1,3 +1,4 @@
+import Experience from "@/app/components/profile/experience/page";
 import Skills from "../../components/profile/skills/page";
 
 export default function Profile() {
@@ -5,8 +6,8 @@ export default function Profile() {
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <div>
                 <Skills/>
-                {/*<Education/>
                 <Experience/>
+                {/*<Education/>
                 <Documents/>*/}
             </div>
         </main>
