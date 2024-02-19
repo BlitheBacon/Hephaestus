@@ -16,10 +16,10 @@ export default function ExperienceEntry(props: Experience) {
           </div>
           <div className="grid col-span-2 row-start-1 row-span-1 max-w-sm text-right font-light text-xs">
             <p>
-              Start Date: {props.startDate.toLocaleDateString()}
+              {props.startDate.toLocaleDateString()}
             </p>
             <p>
-              End Date: {props.endDate.toLocaleDateString()}
+              {props.endDate.toLocaleDateString()}
             </p>
           </div>
           <div className="grid col-start-1 col-span-5 row-start-2 row-span-1 text-xs font-light text-gray-900 dark:text-white">

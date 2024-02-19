@@ -1,5 +1,3 @@
-'use client';
-
 import Data from "@/app/mock/profile/data/profile.json"
 import ExperienceEntry from "./experience_entry/page";
 
@@ -18,24 +16,21 @@ export default function Experience() {
         </div>
         <div className="flow-root">
           <ul role="list" className="divide-y divide-gray-200 dark:divide-gray-700">
-            <li>
-              <ExperienceEntry
-                company_name={dExperience.Experience01.company_name}
-                title={dExperience.Experience01.title}
-                summary={dExperience.Experience01.summary}
-                location={dLocation.Location01}
-                startDate={new Date(Date.now())}
-                endDate={new Date(Date.now())}/>
-            </li>
-            <li>
-              <ExperienceEntry
-                company_name={dExperience.Experience02.company_name}
-                title={dExperience.Experience02.title}
-                summary={dExperience.Experience02.summary}
-                location={dLocation.Location02}
-                startDate={new Date(Date.now())}
-                endDate={new Date(Date.now())}/>
-            </li>
+            <ExperienceEntry
+              company_name={dExperience.Experience01.company_name}
+              title={dExperience.Experience01.title}
+              summary={dExperience.Experience01.summary}
+              location={dLocation.Location01}
+              startDate={new Date(Date.now())}
+              endDate={new Date(Date.now())}/>
+
+            <ExperienceEntry
+              company_name={dExperience.Experience02.company_name}
+              title={dExperience.Experience02.title}
+              summary={dExperience.Experience02.summary}
+              location={dLocation.Location02}
+              startDate={new Date(Date.now())}
+              endDate={new Date(Date.now())}/>
           </ul>
         </div>
       </div>

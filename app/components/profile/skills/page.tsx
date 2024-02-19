@@ -1,5 +1,3 @@
-'use client';
-
 import { SkillsCompetency } from "@/app/_lib/types/profile";
 import SkillsEntry from "./skill_entry/page";
 import Data from "@/app/mock/profile/data/profile.json"
