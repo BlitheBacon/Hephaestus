@@ -8,6 +8,9 @@ export type Education = {
   institution: string;
   degree: string;
   fieldOfStudy: string;
+  minor?: string;
+  concentration?: string;
+  summary?: string;
   location?: Location;
   startDate: Date;
   endDate: Date;
