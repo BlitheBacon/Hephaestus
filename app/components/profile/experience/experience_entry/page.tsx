@@ -7,11 +7,11 @@ export default function ExperienceEntry(props: Experience) {
       <div className="grid grid-cols-5 grid-rows-[repeat(5, auto)] items-start pt-4 pb-2">
         <div className="grid col-start-1 col-span-5 row-start-1 row-span-1 text-left items-center font-light text-xs">
           <div className="col-start-1 col-span-3 row-start-1 row-span-1">
-            <p className="text-sm font-medium min-h-0 text-gray-900 truncate dark:text-white">
-                {props.company_name}
-            </p>
-            <p className="text-sm text-gray-500 min-h-0 truncate dark:text-gray-400">
+            <p className="font-medium text-sm text-gray-500 min-h-0 dark:text-orange-500">
               {props.title}
+            </p>
+            <p className="text-sm font-medium min-h-0 text-gray-900 truncate dark:text-white">
+              {props.company_name}
             </p>
           </div>
           <div className="grid col-span-2 row-start-1 row-span-1 max-w-sm text-right font-light text-xs">
