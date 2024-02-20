@@ -38,3 +38,10 @@ export type Experience = {
   startDate: Date;
   endDate: Date;
 }
+
+export type Certifications = {
+  name: string;
+  issuer: string;
+  date_issued: Date;
+  date_of_expiry: Date;
+}

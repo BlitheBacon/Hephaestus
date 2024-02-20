@@ -9,6 +9,16 @@
       "city": "Santa Monica",
       "state": "California",
       "country": "United States"
+    },
+    "Location03": {
+      "city": "Stanford",
+      "state": "California",
+      "country":"United States"
+    },
+    "Location04": {
+      "city": "Chapel Hill",
+      "state": "North Carolina",
+      "country":"United States"
     }
   },
   "Skills": {
@@ -53,6 +63,66 @@
       "company_name": "Naughty Dog",
       "title": "Physics Programmer",
       "summary": "Designed and developed a new game engine component, resulting in a 40% increase in game performance and a 20% decrease in development time for new features.\nCollaborated with the design team to create and implement new game mechanics, resulting in a 15% increase in player retention and a 5% increase in daily active users.\nDebugged and optimized game code, resulting in a 25% decrease in bug-related delays and a 10% increase in overall code quality."
+    }
+  },
+  "Education": {
+    "Education01": {
+      "institution": "Stanford University",
+      "degree": "Bachelor of Science",
+      "fieldOfStudy": "Computer Science",
+      "minor": "Math",
+      "concentration": "Visual Computing",
+      "summary": "Coursework focused on theoretical computer science principles, graphical computation, and mathematics.",
+      "start_date": {
+        "date": {
+          "day": "01",
+          "month": "05",
+          "year": "2018"
+        }
+      },
+      "end_date": {
+        "date": {
+          "day": "30",
+          "month": "04",
+          "year": "2022"
+        }
+      }
+    },
+    "Education02": {
+      "institution": "University of North Carolina at Chapel Hill",
+      "degree": "Master of  Science",
+      "fieldOfStudy": "Computer Science",
+      "minor": "",
+      "concentration": "",
+      "summary": "Coursework focused on advanced theoretical computer science principles, graphical computation, and software engineering.",
+      "start_date": {
+        "date": {
+          "day": "01",
+          "month": "05",
+          "year": "2022"
+        }
+      },
+      "end_date": {
+        "date": {
+          "day": "30",
+          "month": "04",
+          "year": "2024"
+        }
+      }
+    }
+  },
+  "Certifications": {
+    "Certificate01": {
+      "name": "A+",
+      "issuer": "CompTIA",
+      "date_issued": "",
+      "date_of_renewal": ""
+    },
+    "Certificate02": {
+      "name": "Project+",
+      "issuer": "CompTIA",
+      "date_issued": "",
+      "date_of_renewal": ""
     }
   }
 }
